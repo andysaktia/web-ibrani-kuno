@@ -1,0 +1,116 @@
+header, section, footer, nav, article, figure {
+  display:block;
+}
+body {
+  font-size: 95%;
+  font-family: Georgia, times, serif;
+  margin: auto;
+  max-width: 940px;
+  min-width: 720px;
+  margin: 10px, auto 10px auto;
+  padding: 20px;
+  border: 4px double #000;
+  background-color: #ffffff;
+}
+header h1{
+  background: url(../images/logo-ah.png) no-repeat;
+  width: 300px;
+  text-align: center;
+  padding-bottom: 8px;
+  margin: 10px auto 20px auto;
+  text-indent: -9999px;
+
+}
+nav ul {
+  width: 700px;
+  padding: 15px;
+  margin: 0px auto 0px auto;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  text-align: center;
+}
+nav li {
+  display: inline;
+  margin: 0px 3px;
+}
+nav a{
+  color:#000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 6px 18px 5px 18px;
+}
+nav a:hover, a.on{
+  color:#cc3333;
+  background-color: #ffffff;
+}
+section{
+  text-align: justify;
+  width: 700px;
+  margin: 20px auto 20px auto;
+  font-weight: normal;
+}
+figure {
+  margin: auto auto 10px auto;
+  width: 600px;
+}
+figure img{
+  width: 600px;
+}
+article a{
+  color:#cc3333;
+  text-decoration: none;
+}
+article a:hover{
+  background-color: #ffffff;
+  text-decoration:underline;
+}
+article h3{
+  text-align: center;
+}
+.bible {
+  font-style: italic;
+  margin:auto;
+  width: 450px;
+}
+.bible2 {
+  font-style: italic;
+  margin:auto;
+  width: 600px;
+}
+.ket{
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.kutipan {
+  margin:auto;
+  width: 500px;
+}
+.gbra {
+  width: 250px;
+  margin:0px auto 0px auto;
+
+}
+.gbra1{
+  width: 350px;
+  margin:0px auto 0px auto;
+}
+.gbra2 {
+  width: 400px;
+  margin:0px auto 0px auto;
+}
+.gbra3 {
+  width: 500px;
+  margin:0px auto 0px auto;
+}
+.gbra4 {
+  width: 550px;
+  margin:0px auto 0px auto;
+}
+
+footer{
+  text-align: center;
+  width: 700px;
+  padding: 15px;
+  border-top: 2px solid #000;
+  margin: 0px auto 0px auto;
