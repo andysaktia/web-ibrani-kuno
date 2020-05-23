@@ -338,3 +338,13 @@ footer{
     } 
 
 }
+
+.content-detail{
+    border-bottom: 1px;
+    padding-top: 1.5rem;
+}
+.content-detail .img-root{
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.2rem;
+}

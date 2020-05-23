@@ -14,7 +14,7 @@ nav.onload = function(){
     document.getElementsByTagName('nav')[0].innerHTML += nav.responseText;
   } 
 }
-nav.open('GET', 'nav.htm', true);   
+nav.open('GET', '../nav.htm', true);   
 nav.send(null); 
 
 
@@ -25,5 +25,5 @@ idat.onload = function(){
     document.getElementById('index-alfabet').innerHTML += idat.responseText;
   } 
 }
-idat.open('GET', 'idat.htm', true);   
+idat.open('GET', '../alfabet/idat.htm', true);   
 idat.send(null); 
