@@ -348,3 +348,7 @@ footer{
     padding-top: 1.5rem;
     padding-bottom: 1.2rem;
 }
+
+#collapseOne img{
+    padding: 0px 5px;
+}

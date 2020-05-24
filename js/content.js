@@ -1,12 +1,21 @@
 
+var nav = new XMLHttpRequest(); 
 
-
-var intro = new XMLHttpRequest(); 
-
-intro.onload = function(){
-  if(intro.status == 200){
-    document.getElementById('intro-home').innerHTML += intro.responseText;
+nav.onload = function(){
+  if(nav.status == 200){
+    document.getElementsByTagName('nav')[0].innerHTML += nav.responseText;
   } 
 }
-intro.open('GET', 'intro.htm', true);   
-intro.send(null); 
+nav.open('GET', '../../nav.htm', true);   
+nav.send(null); 
+
+
+var idat = new XMLHttpRequest(); 
+
+idat.onload = function(){
+  if(idat.status == 200){
+    document.getElementById('index-alfabet').innerHTML += idat.responseText;
+  } 
+}
+idat.open('GET', '../../alfabet/alfabet-kuno/idat.htm', true);   
+idat.send(null); 
